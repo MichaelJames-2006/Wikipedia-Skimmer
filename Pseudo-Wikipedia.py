@@ -27,5 +27,7 @@ class ArticlePriorityFinder:
         result = tk.Label(self.root, font=("Cascadia Code", 10), text=first_paragraph, 
                           fg="white", bg="black", wrap=True, wraplength=300)
         result.grid(row=2, column=0, columnspan=1, padx=65, pady=10)
+        
+        print(first_paragraph)
 
 ArticlePriorityFinder()
