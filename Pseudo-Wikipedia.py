@@ -17,7 +17,7 @@ class ArticlePriorityFinder:
 
         self.root.mainloop()
     
-    def scrape(self) -> list:
+    def scrape(self) -> None:
         self.typed = self.word_input.get().lower()
 
         dict_url = f"https://www.wikipedia.com/wiki/{self.typed}"
