@@ -6,4 +6,4 @@ This is a webscraper in Python. Which uses BeautifulSoup and Tkinter to display 
   - "pip install bs4"
   - "pip install requests"
 
-#### All rights are reserved to Wikipedia (wikipedia.org).
+#### All rights are reserved to Wikipedia (wikipedia.com).
